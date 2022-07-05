@@ -8,7 +8,7 @@ library(readxl)
 # lectura de la base datos
 datos <- read_excel("datos.xlsx")
 
-# definición del factor del Experimento
+# definición del factor del Experimento 
 datos$Aerosol = factor(datos$Aerosol) 
 
 # replicas del exp
